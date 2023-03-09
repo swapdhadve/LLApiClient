@@ -20,9 +20,7 @@ console.log(LLApiClient.listIndustries());
 
 ```
 
----------------- 1. List Industries API ----------------
-
-listIndustries()
+---------------- 1. List Industries API : listIndustries() ----------------
 
 Response:
 
@@ -184,12 +182,9 @@ Response:
     }
   }
 ]
----------------- 2. Get Industry API ----------------
-
-getIndustry(id)
+---------------- 2. Get Industry API : getIndustry(id) ----------------
 
 Response:
-
 
 {
   "id": "3",
@@ -204,9 +199,9 @@ Response:
     "extension": "png"
   }
 }
----------------- 3. List Asset Purposes API ----------------
+---------------- 3. List Asset Purposes API : listAssetPurposes() ----------------
 
-listAssetPurposes()
+Response:
 
 [
   {
@@ -308,9 +303,7 @@ listAssetPurposes()
     }
   }
 ]
----------------- 4. List Asset Content Types API ----------------
-
-listContentTypes()
+---------------- 4. List Asset Content Types API : listContentTypes() ----------------
 
 Response:
 
@@ -387,9 +380,7 @@ Response:
 ]
 
 
----------------- 5. List Packages API ----------------
-
-listPackages(industryId, assetPurposeId, assetContentTypeId)
+---------------- 5. List Packages API : listPackages(industryId, assetPurposeId, assetContentTypeId) ----------------
 
 Response:
 
@@ -1126,9 +1117,7 @@ Response:
   }
 ]
 
----------------- 6. Get Top Packages API ----------------
-
-getTopPackages(industryId, assetPurposeId, assetContentTypeId)
+---------------- 6. Get Top Packages API : getTopPackages(industryId, assetPurposeId, assetContentTypeId) ----------------
 
 Response:
 
@@ -1378,9 +1367,7 @@ Response:
     "currency": "USD"
   }
 ]
----------------- 7. Get Package API ----------------
-
-getPackage(packageId)
+---------------- 7. Get Package API : getPackage(packageId) ----------------
 
 Response:
 
@@ -1467,9 +1454,7 @@ Response:
   "currency": "USD"
 }
 
----------------- 8. Get Package Customizations API ----------------
-
-getPackageCustomizations(packageId)
+---------------- 8. Get Package Customizations API : getPackageCustomizations(packageId) ----------------
 
 Response:
 
@@ -1483,9 +1468,7 @@ Response:
   "price": 750,
   "currency": "USD"
 }
----------------- 9. Get Package AddOns API ----------------
-
-getPackageAddOns(packageId)
+---------------- 9. Get Package AddOns API : getPackageAddOns(packageId) ----------------
 
 Response:
 
