@@ -1,0 +1,20 @@
+{
+  "name": "@skillvestors/llapiclient",
+  "version": "1.0.0",
+  "description": "API Client for LL.",
+  "main": "src/client.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapdhadve/LLApiClient.git"
+  },
+  "author": "swapneel dhadve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swapdhadve/LLApiClient/issues"
+  },
+  "homepage": "https://github.com/swapdhadve/LLApiClient#readme"
+}
