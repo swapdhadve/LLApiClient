@@ -1483,7 +1483,7 @@ Response:
   "price": 750,
   "currency": "USD"
 }
----------------- 8. Get Package AddOns API ----------------
+---------------- 9. Get Package AddOns API ----------------
 
 getPackageAddOns(packageId)
 

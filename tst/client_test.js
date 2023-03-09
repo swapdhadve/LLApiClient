@@ -48,7 +48,7 @@ console.log("getPackageCustomizations(packageId)");
 console.log("");
 console.log(JSON.stringify(LLApiClient.getPackageCustomizations("1"), null, 2));
 
-console.log("---------------- 8. Get Package AddOns API ----------------");
+console.log("---------------- 9. Get Package AddOns API ----------------");
 console.log("");
 console.log("getPackageAddOns(packageId)");
 console.log("");
